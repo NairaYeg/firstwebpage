@@ -1,21 +1,23 @@
-html{
+* {  margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
     font-family: Arial, Helvetica, sans-serif;
-    color: azure;
 }
 
-body{
+body {
     background: #ccc;
     margin: 30px 50px;
     line-height: 1.4;
 }
 
 .btn{
-    background-color:black;
-    color: burlywood;
-    padding: 9,6px 20,8px;
+    background-color:#888888;
+    color: black;
+    padding: 3px 20.8px;
     text-decoration: none;
     border: 0;
+    opacity: .5;
 }
 
 img{
@@ -29,30 +31,34 @@ img{
 
 .main-nav ul{
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     padding: 0;
+
     list-style: none;
-    grid-template-columns: repeat(4, 1fr);
 }
 
 .main-nav a {
-    background: aliceblue;
     display: block;
-    text-decoration: none;
     padding: 9px;
+
+    box-shadow: 2px 3px #888888;
+    background: aliceblue;
+    text-decoration: none;
     color: black;
-    text-transform: 400ms;
+    transform: 600ms;
     font-size: 15px;
     text-align: center;
 }
 
 .main-nav a:hover {
     background-color: darkgray;
-    color: darkmagenta;
+    transition: 600ms;
 }
 
 .main-conteiner {
    display: grid;
+   grid-gap: 30px;
    grid-template-areas: 
     "showcase showcase  top-box-a"
     "showcase showcase  top-box-b"
@@ -61,15 +67,17 @@ img{
 
 .showcase {
     grid-area: showcase;
-    min-height: 400px;
-    background-image: url(./assets/laptop.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
+    height: 500px;
+    background-image: url(./assets/computer3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
     box-shadow: blanchedalmond;
 }
 
@@ -82,23 +90,26 @@ img{
 }
 
 .showcase h1 {
-   font-size: 20px;
+   font-size: 40px;
    margin-bottom: 0;
-   color: coral;
+   color: whitesmoke;
 }
 
 .showcase p {
-    font-size: 16px;
+    padding: 10px 0;
+    font-size: 20px;
     margin-top: 0;
-    color: cyan;
+    color: white;
 }
 
 .top-box {
-    background: darkgray;
     display: grid;
     align-items: center;
     justify-items: center;
     padding: 10px;
+
+    background: aliceblue;
+    box-shadow: 3px 5px #888888
 }
 
 .top-box .price {
@@ -112,17 +123,20 @@ img{
 }
 
 .box {
-    background-color: darkseagreen;
+    box-shadow: 2px 3px #888888;
+    background: aliceblue;
     text-align: center;
     padding: 10px 20px;
 }
 
 .info {
-    background-color: dimgrey;
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
+
+    background: aliceblue;
+    box-shadow: 3px 5px #888888;
 }
 
 .portfolio {
@@ -132,12 +146,14 @@ img{
 }
 
 .portfolio img {
-    width: 100px;
+    width: 100%;
+    box-shadow: 3px 5px #888888;
 }
 
 footer {
     margin-top: 10px;
     background-color: gray;
+    opacity: .5;
     color: black;
     text-align: center;
 }
