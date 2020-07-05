@@ -1,5 +1,7 @@
 :root {
-    --main-bg-color: #rgba(204, 204, 204, 0.3);  
+    --main-bg-color: #CCCCCC; 
+    --boxes-bg-color:#E6E6E6; 
+    --btn-bg-color: #B6B2AF;
 }
 
 * { 
@@ -18,12 +20,11 @@ body {
 }
 
 .btn{
-    background-color: gray;
+    background-color:var(--btn-bg-color);
     color: black;
     padding: 3px 20.8px;
     text-decoration: none;
     border: 0;
-    opacity: .5;
 }
 
 img{
@@ -49,7 +50,7 @@ img{
     padding: 9px;
 
     box-shadow: 5px 10px 20px #888888;
-    background: aliceblue;
+    background: #E6E6E6;
     text-decoration: none;
     color: black;
     transform: 600ms;
@@ -84,7 +85,7 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
-    box-shadow: blanchedalmond;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .top-box-a {
@@ -98,14 +99,14 @@ img{
 .showcase h1 {
    font-size: 40px;
    margin-bottom: 0;
-   color: whitesmoke;
+   color: var(--boxes-bg-color);
 }
 
 .showcase p {
     padding: 10px 0;
     font-size: 20px;
     margin-top: 0;
-    color: white;
+    color: var(--boxes-bg-color);
 }
 
 .top-box {
@@ -114,7 +115,7 @@ img{
     justify-items: center;
     padding: 10px;
 
-    background: aliceblue;
+    background: var(--boxes-bg-color);
     box-shadow: 5px 10px 18px #888888
 }
 
@@ -130,7 +131,7 @@ img{
 
 .box {
     box-shadow: 5px 10px 18px #888888;
-    background: aliceblue;
+    background: var(--boxes-bg-color);
     text-align: center;
     padding: 10px 20px;
 }
@@ -141,7 +142,7 @@ img{
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
 
-    background: aliceblue;
+    background: var(--boxes-bg-color);
     box-shadow: 5px 10px 18px #888888;
 }
 
@@ -158,10 +159,10 @@ img{
 
 footer {
     margin-top: 10px;
-    background-color: gray;
-    opacity: .5;
-    color: black;
     text-align: center;
+
+    background-color: rgb(180, 180, 180);
+    color: black;
 }
 
 @media (max-width: 700px){
