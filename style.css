@@ -6,9 +6,10 @@
 }
 
 body {
-    background: #ccc;
-    margin: 30px 50px;
+    margin: 20px 50px;
     line-height: 1.4;
+
+    background: #ccc;
 }
 
 .btn{
@@ -123,7 +124,7 @@ img{
 }
 
 .box {
-    box-shadow: 2px 3px #888888;
+    box-shadow: 3px 5px #888888;
     background: aliceblue;
     text-align: center;
     padding: 10px 20px;
