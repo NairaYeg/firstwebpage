@@ -1,7 +1,8 @@
-:root {
+html {
     --main-bg-color: #CCCCCC; 
     --boxes-bg-color:#E6E6E6; 
     --btn-bg-color: #B6B2AF;
+    --main-box-shadow:5px 10px 20px #888888;
 }
 
 * { 
@@ -49,7 +50,7 @@ img{
     display: block;
     padding: 9px;
 
-    box-shadow: 5px 10px 20px #888888;
+    box-shadow: var(--main-box-shadow);
     background: #E6E6E6;
     text-decoration: none;
     color: black;
@@ -85,7 +86,7 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: var(--main-box-shadow);
 }
 
 .top-box-a {
@@ -116,7 +117,7 @@ img{
     padding: 10px;
 
     background: var(--boxes-bg-color);
-    box-shadow: 5px 10px 18px #888888
+    box-shadow: var(--main-box-shadow);
 }
 
 .top-box .price {
@@ -130,7 +131,7 @@ img{
 }
 
 .box {
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: var(--main-box-shadow);
     background: var(--boxes-bg-color);
     text-align: center;
     padding: 10px 20px;
@@ -143,7 +144,7 @@ img{
     padding: 20px;
 
     background: var(--boxes-bg-color);
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: var(--main-box-shadow);
 }
 
 .portfolio {
@@ -154,7 +155,7 @@ img{
 
 .portfolio img {
     width: 100%;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: var(--main-box-shadow);
 }
 
 footer {
@@ -163,6 +164,7 @@ footer {
 
     background-color: rgb(180, 180, 180);
     color: black;
+    box-shadow: var(--main-box-shadow);
 }
 
 @media (max-width: 700px){
