@@ -168,12 +168,13 @@ footer {
 
 @media (max-width: 700px){
      .main-conteiner {
-         grid-template-areas: 
-             "main-header main-header"
-             "top-box-a top-box-b"
-         ;
+       display: grid;
+       grid-template-areas:
+        "main-header main-header" 
+        "top-box-a top-box-b"
+       ;
      }
-     
+
      .main-header h1 {
          font-size: 15px;
      }
@@ -203,7 +204,7 @@ footer {
     .top-conteiner {
         display: grid;
         grid-template-areas:
-         "showcase " 
+         "main-header " 
          "top-box-a"
          "top-box-b"
         ;
