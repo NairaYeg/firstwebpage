@@ -9,4 +9,4 @@
      * GRID
      
      
-#### [Business websites development](https://nairayeg.github.io/firstwebpage/.) 
+#### [Business websites development](https://nairayeg.github.io/firstwebpage/) 
