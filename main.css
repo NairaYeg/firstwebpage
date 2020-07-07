@@ -21,6 +21,8 @@ body {
     padding: 3px 20.8px;
     text-decoration: none;
     border: 0;
+    text-align: center;
+    font-size: 15px;
 }
 
 img{
@@ -100,8 +102,9 @@ img{
 
 .main-header p {
     padding: 10px 0;
-    font-size: 20px;
     margin-top: 0;
+    
+    font-size: 20px;
     color: var(--boxes-bg-color);
 }
 
@@ -126,10 +129,11 @@ img{
 }
 
 .box {
+    padding: 10px 20px;
+
     box-shadow: var(--main-box-shadow);
     background: var(--boxes-bg-color);
     text-align: center;
-    padding: 10px 20px;
 }
 
 .info {
@@ -189,6 +193,10 @@ footer {
         display: block;
         text-align: center;
         margin: auto;
+    }
+
+    .btn {
+        padding: 2px 15px;
     }
 }
 
