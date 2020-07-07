@@ -4,9 +4,9 @@
   "description": "* HTML5 (with semantic tags)\r   * CSS3\r      * GRID",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html",
-    "deploy": "gh-pages -d dist"
+    "dev": "parcel ./app/index.html",
+    "build": "parcel ./app/build index.html",
+    "deploy": "gh-pages -d app"
   },
   "repository": {
     "type": "git",
