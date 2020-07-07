@@ -204,7 +204,7 @@ footer {
     .top-conteiner {
         display: grid;
         grid-template-areas:
-         "showcase " 
+         "main-header " 
          "top-box-a"
          "top-box-b"
         ;
