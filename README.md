@@ -6,6 +6,7 @@
  ## Stack
   * HTML5 (with semantic tags)
   * CSS3
-     * GRID 
-
-(Business websites development)[https://nairayeg.github.io/firstwebsite/]
+     * GRID
+     
+     
+ * [Business websites development](https://nairayeg.github.io/firstwebsite/) 
